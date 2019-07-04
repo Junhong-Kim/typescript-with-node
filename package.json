@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node ./src/index.ts",
-    "start": "tsc && node dist"
+    "dev": "ts-node src/server.ts",
+    "start": "npm run serve",
+    "serve": "tsc && node dist/server.js"
   },
   "keywords": [],
   "author": "",
