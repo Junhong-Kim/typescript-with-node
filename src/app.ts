@@ -1,9 +1,9 @@
-import * as express from 'express'
-import routes from './routes'
+import express from "express";
+import routes from "./routes";
 
-const app = express()
+const app = express();
 
-app.set('port', process.env.PORT || 3000)
-app.use('/', routes)
+app.set("port", process.env.PORT || 3000);
+app.use("/", routes);
 
-export default app
+export default app;
